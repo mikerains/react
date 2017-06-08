@@ -17,13 +17,18 @@ http://redux.js.org/docs/advanced/
 # Build and Run
 ## npm task "build" build the Reddit Async application
 npm build - builds agains webpack.config.nonhmr.js
+
 npm start - uses serve to host the built
 
 ## npm task "starthmr" runs dev server on localhost:8080 which uses Hot Module Replacement
 npm run starthmr - executes the npm plugin "webpack-dev-server" which executes webpack.config.js
+
 -- see node_modules\.bin\webpack-dev-server -?
+
 -- see https://webpack.js.org/guides/development/ which explains "How To Develop" along with dev-server.
+
 webpack.config.js has configuration to run the dev-server:
+````js
     devServer: {
         hot: true,
         // enable HMR on the server
@@ -36,6 +41,7 @@ webpack.config.js has configuration to run the dev-server:
         
         historyApiFallback: true
     },
+````
 
 # Hot Module Reloading
 ## HMR based on:
