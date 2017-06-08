@@ -1,0 +1,22 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[remote "origin"]
+	url = https://github.com/mikerains/reduxjsAsync.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+	remote = origin
+	merge = refs/heads/master
+[branch "availreddits"]
+	remote = origin
+	merge = refs/heads/availreddits
+[branch "avail"]
+	remote = origin
+	merge = refs/heads/avail
+[branch "router"]
+	remote = origin
+	merge = refs/heads/router

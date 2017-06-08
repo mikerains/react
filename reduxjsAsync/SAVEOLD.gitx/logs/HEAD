@@ -1,0 +1,24 @@
+0000000000000000000000000000000000000000 75a04a16a1b532b9494bcacddec83f4ff55ad962 Rains, Michael <Michael_Rains@gallup.com> 1495036757 -0500	clone: from https://github.com/mikerains/reduxjsAsync.git
+75a04a16a1b532b9494bcacddec83f4ff55ad962 7456a9e5e3db0cdfb74d6c848e9e1d4dfb0fd4c6 Rains, Michael <Michael_Rains@gallup.com> 1495830450 -0500	commit: gcp entry
+7456a9e5e3db0cdfb74d6c848e9e1d4dfb0fd4c6 9ed96171e58e1dd4ff24084ae8103536b3d83d40 Rains, Michael <Michael_Rains@gallup.com> 1495830573 -0500	commit (merge): merge
+9ed96171e58e1dd4ff24084ae8103536b3d83d40 228e1928317accf5736b907591e1bfcc02cab0d1 Rains, Michael <Michael_Rains@gallup.com> 1495832992 -0500	commit: available reddits
+228e1928317accf5736b907591e1bfcc02cab0d1 228e1928317accf5736b907591e1bfcc02cab0d1 Rains, Michael <Michael_Rains@gallup.com> 1495833002 -0500	checkout: moving from master to availreddits
+228e1928317accf5736b907591e1bfcc02cab0d1 228e1928317accf5736b907591e1bfcc02cab0d1 Rains, Michael <Michael_Rains@gallup.com> 1495833030 -0500	checkout: moving from availreddits to master
+228e1928317accf5736b907591e1bfcc02cab0d1 228e1928317accf5736b907591e1bfcc02cab0d1 Rains, Michael <Michael_Rains@gallup.com> 1495833125 -0500	reset: moving to HEAD
+228e1928317accf5736b907591e1bfcc02cab0d1 228e1928317accf5736b907591e1bfcc02cab0d1 Rains, Michael <Michael_Rains@gallup.com> 1495833166 -0500	checkout: moving from master to master
+228e1928317accf5736b907591e1bfcc02cab0d1 53b44d0681aabeeb3d427712bd1b2cf3218122f9 Rains, Michael <Michael_Rains@gallup.com> 1495833324 -0500	commit (cherry-pick): merge
+53b44d0681aabeeb3d427712bd1b2cf3218122f9 7456a9e5e3db0cdfb74d6c848e9e1d4dfb0fd4c6 Rains, Michael <Michael_Rains@gallup.com> 1495833329 -0500	checkout: moving from master to 7456a9e5e3db0cdfb74d6c848e9e1d4dfb0fd4c6
+7456a9e5e3db0cdfb74d6c848e9e1d4dfb0fd4c6 d89f09df53daedb09fc0d9e3eaa58bde93e2ada9 Rains, Michael <Michael_Rains@gallup.com> 1495833456 -0500	commit (cherry-pick): revert availablereddits into it's own branch
+d89f09df53daedb09fc0d9e3eaa58bde93e2ada9 53b44d0681aabeeb3d427712bd1b2cf3218122f9 Rains, Michael <Michael_Rains@gallup.com> 1495833500 -0500	checkout: moving from d89f09df53daedb09fc0d9e3eaa58bde93e2ada9 to master
+53b44d0681aabeeb3d427712bd1b2cf3218122f9 53b44d0681aabeeb3d427712bd1b2cf3218122f9 Rains, Michael <Michael_Rains@gallup.com> 1495833540 -0500	reset: moving to HEAD
+53b44d0681aabeeb3d427712bd1b2cf3218122f9 d0ab1c1f1ac97b300a26d777e7d897753a502082 Rains, Michael <Michael_Rains@gallup.com> 1496174896 -0500	revert: Revert "available reddits". The reverted changes are in the "available
+d0ab1c1f1ac97b300a26d777e7d897753a502082 228e1928317accf5736b907591e1bfcc02cab0d1 Rains, Michael <Michael_Rains@gallup.com> 1496175074 -0500	checkout: moving from master to availreddits
+228e1928317accf5736b907591e1bfcc02cab0d1 d0ab1c1f1ac97b300a26d777e7d897753a502082 Rains, Michael <Michael_Rains@gallup.com> 1496175091 -0500	checkout: moving from availreddits to master
+d0ab1c1f1ac97b300a26d777e7d897753a502082 d0ab1c1f1ac97b300a26d777e7d897753a502082 Rains, Michael <Michael_Rains@gallup.com> 1496176499 -0500	checkout: moving from master to avail
+d0ab1c1f1ac97b300a26d777e7d897753a502082 a25f26481baffc742efd3f03ba6065347c0ce3f1 Rains, Michael <Michael_Rains@gallup.com> 1496256485 -0500	commit: consle logging
+a25f26481baffc742efd3f03ba6065347c0ce3f1 d0ab1c1f1ac97b300a26d777e7d897753a502082 Rains, Michael <Michael_Rains@gallup.com> 1496256509 -0500	checkout: moving from avail to master
+d0ab1c1f1ac97b300a26d777e7d897753a502082 d0ab1c1f1ac97b300a26d777e7d897753a502082 Rains, Michael <Michael_Rains@gallup.com> 1496256519 -0500	checkout: moving from master to router
+d0ab1c1f1ac97b300a26d777e7d897753a502082 cc6901519a891286ab83226838bff366dc79adb8 Rains, Michael <Michael_Rains@gallup.com> 1496286853 -0500	commit: get config value
+cc6901519a891286ab83226838bff366dc79adb8 d0ab1c1f1ac97b300a26d777e7d897753a502082 Rains, Michael <Michael_Rains@gallup.com> 1496350141 -0500	checkout: moving from router to master
+d0ab1c1f1ac97b300a26d777e7d897753a502082 53c97fdea3e35287b8df4c07e07ef54b833f9180 Rains, Michael <Michael_Rains@gallup.com> 1496350146 -0500	pull: Fast-forward
+53c97fdea3e35287b8df4c07e07ef54b833f9180 f3fb72fc0415bc48f0fce1d2c477e694739ced14 Rains, Michael <Michael_Rains@gallup.com> 1496428480 -0500	commit: router working
