@@ -20,6 +20,7 @@ export default class Root extends Component {
           <div>
           <Route exact path="/" component={AsyncApp} />
           <Route path="/config" component={ConfigClient} />
+          <Route path="/reddit" component={AsyncApp} />
           </div>
         </Router>
       </Provider>

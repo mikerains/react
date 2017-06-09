@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --config webpack.config.nonhmr.js",
-    "start": "serve",
+    "start": "serve dist",
     "starthmr": "webpack-dev-server"
   },
   "repository": {
