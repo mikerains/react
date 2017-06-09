@@ -6,8 +6,8 @@ react sample projects
 See https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#making-a-progressive-web-app
 
 
-## Client sde Routing
-To get Client-Side Routing to work, I needed to configure server.  See reduxjsAsync and https://github.com/facebookincubator/create-react-app
+## Client side Routing
+To get Client-Side Routing to work, I needed to configure express server.  See reduxjsAsync and https://github.com/facebookincubator/create-react-app
 
 
 
