@@ -9,7 +9,11 @@ var webpack = require('webpack');
 
 module.exports = {
     devtool: "cheap-eval-source-map",
-
+    target: 'web',
+    resolve: {
+        // Add '.ts' and '.tsx' as resolvable extensions.
+        extensions: [".ts", ".tsx", ".js", ".json"]
+    },
     entry: [
         'react-hot-loader/patch',
         // activate HMR for React
@@ -22,11 +26,12 @@ module.exports = {
         // bundle the client for hot reloading
         // only- means to only hot reload for successful updates
 
-        './src/index.js'
+        './src/index.tsx'
         // the entry point of our app
     ],
     output: {
-        filename: 'bundle.js',
+        //filename: 'bundle.js',
+        filename: '[name].[chunkhash].js',
         // the output bundle
 
         path: path.resolve(__dirname, 'dist'),
@@ -51,6 +56,7 @@ module.exports = {
 
     module: {
         rules: [
+            { test: /\.tsx?$/, loader: "awesome-typescript-loader", },
             {
                 test: /\.jsx?$/,
                 use: ['babel-loader', ],

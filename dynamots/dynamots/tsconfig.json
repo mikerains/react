@@ -1,0 +1,21 @@
+﻿{
+  "compilerOptions": {
+    "outDir": "./Scripts/",
+    "sourceMap": true,
+    "noImplicitAny": false,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "jsx": "react",
+    "traceResolution": true,
+    "typeRoots": [
+      "node_modules/@types",
+      "@types-custom"
+    ]
+  },
+  "exclude": [
+    "node_modules",
+    "wwwroot"
+  ]
+
+}

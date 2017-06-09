@@ -10,7 +10,12 @@ var webpack = require('webpack');
 module.exports = {
     devtool: "cheap-eval-source-map",
     entry: {
-        app: "./src/index.js"
+        app: "./src/index.tsx"
+    },
+    target: 'web',
+    resolve: {
+        // Add '.ts' and '.tsx' as resolvable extensions.
+        extensions: [".ts", ".tsx", ".js", ".json"]
     },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -19,6 +24,11 @@ module.exports = {
     },
     module: {
         rules: [
+            {
+                test: /\.tsx?$/,
+                loader: "awesome-typescript-loader",
+            },
+
             {
                 test: /\.(js|jsx)$/,
                 exclude: /(node_modules|bower_components)/,

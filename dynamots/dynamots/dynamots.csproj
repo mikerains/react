@@ -67,6 +67,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="src\myindex.ejs" />
+    <Content Include="webpack.config.gcp.js" />
+    <Content Include="webpack.config.js" />
+    <Content Include="webpack.config.nonhmr.js" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
