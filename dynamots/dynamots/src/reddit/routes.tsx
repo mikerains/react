@@ -9,7 +9,7 @@ const MainPage: IStateRoute = {
 }
 
 const RedditPage: IStateRoute = {
-    name: 'reddit',
+    name: 'reddit.term',
     url: '/reddit/:term',
     component: {},
     resolve: [{

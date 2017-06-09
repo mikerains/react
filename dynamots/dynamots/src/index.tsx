@@ -42,8 +42,7 @@ const repeaterTemplate = (route: any, index: number) => {
 router.stateService.go('/');
 
 const init = () => {
-    let config = event || {};
-    let divId = config["data-gss-componentId"] || "app";
+    let divId = "root";
     ReactDOM.render(
         <div>
             <UIRouter router={router}>
@@ -57,11 +56,11 @@ const init = () => {
                                 </ul>
                         </div>
                     </div>
+                    <UIView />
                 </div>
-                <UIView />
             </UIRouter>
         </div>,
-        document.querySelector(`#${divId}`)
+        document.getElementById('root')
     );
 }
 init();

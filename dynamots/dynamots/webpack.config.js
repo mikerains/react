@@ -31,7 +31,7 @@ module.exports = {
     ],
     output: {
         //filename: 'bundle.js',
-        filename: '[name].[chunkhash].js',
+        filename: '[name].[hash].js',
         // the output bundle
 
         path: path.resolve(__dirname, 'dist'),
