@@ -28,7 +28,8 @@ router.start();
 
 const repeaterTemplate = (route: any, index: number) => {
 
-    var params = { data: route.resolves };
+    let term = route.resovles;
+    var params = { term: term };
     return (<UISrefActive class="active" key={index}>
         <UISref to={route.name} params={params}>
             <li role="presentation" key={index} >

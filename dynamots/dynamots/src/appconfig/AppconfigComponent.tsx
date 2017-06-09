@@ -15,7 +15,10 @@ export class Appconfig extends React.Component<any, any> {
 
     render() {
         return (
-            <h2>APP CONFIG</h2>
+            <div>
+                <h2>APP CONFIG</h2>
+                <h3>{this.props.term}</h3>
+            </div>
         )
     }
 }
