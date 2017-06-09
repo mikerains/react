@@ -4,13 +4,14 @@
 
 import * as React from 'react';
 import * as ReactDOM from "react-dom";
-import { UIRouter, UIView, pushStateLocationPlugin, UIRouterReact, servicesPlugin, UISref, UISrefActive} from 'ui-router-react';
+import { UIRouter, UIView, pushStateLocationPlugin, hashLocationPlugin, UIRouterReact, servicesPlugin, UISref, UISrefActive} from 'ui-router-react';
 import { IStateRoute } from './interfaces/interfaces';
 import { Routes } from './routes'
 
 const router = new UIRouterReact();
 
-router.plugin(pushStateLocationPlugin);
+//router.plugin(pushStateLocationPlugin);
+router.plugin(hashLocationPlugin);
 router.plugin(servicesPlugin);
 
 const mainroute: IStateRoute = {
