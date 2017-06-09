@@ -18,6 +18,8 @@ http://redux.js.org/docs/advanced/
 ## npm task "build" build the Reddit Async application
 npm build - builds agains webpack.config.nonhmr.js
 
+npm run start:dev - confiugures express server to serve from the folder and to route all requests to index.html so that bookmarks/history works
+
 npm start - uses serve to host the built
 
 ## npm task "starthmr" runs dev server on localhost:8080 which uses Hot Module Replacement
