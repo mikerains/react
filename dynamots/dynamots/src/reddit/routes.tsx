@@ -1,5 +1,5 @@
 ﻿import { IStateRoute } from '../interfaces/interfaces';
-import { Promise } from 'promise';
+import  * as Promise  from 'promise';
 import { Reddit } from './RedditComponent';
 
 const MainPage: IStateRoute = {
