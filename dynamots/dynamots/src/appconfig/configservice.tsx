@@ -1,4 +1,5 @@
-﻿import { Promise } from 'promise';
+﻿import  * as Promise  from 'promise';
+
 
 export class AppconfigService {
     static GetSetting = (key: string) => {

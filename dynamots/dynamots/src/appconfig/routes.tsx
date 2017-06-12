@@ -10,10 +10,11 @@ const MainPage: IStateRoute = {
 
 const SearchPage: IStateRoute = {
     name: 'config.term',
-    url: '/:term',
+    url: '/config/:term',
     component: {},
     resolve: [{
         token: 'term',
+        deps: ['$transition$'],
         resolveFn: ($transition$) => {
             return AppconfigService.GetSetting($transition$.params().term as string);
         }

@@ -74,6 +74,7 @@
     <Content Include="webpack.config.js" />
     <Content Include="webpack.config.nonhmr.js" />
     <Content Include="tsconfig.json" />
+    <Content Include="README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

@@ -10,10 +10,11 @@ const MainPage: IStateRoute = {
 
 const RedditPage: IStateRoute = {
     name: 'reddit.term',
-    url: '/:term',
+    url: '/reddit/:term',
     component: {},
     resolve: [{
         token: 'term',
+        deps: ['$transition$'],
         resolveFn: ($transition$) => {
             return new Promise<string>((resolve, reject) => {
                 setTimeout(() => {

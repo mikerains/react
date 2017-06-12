@@ -15,7 +15,10 @@ export class Reddit extends React.Component<any, any> {
 
     render() {
         return (
-            <h2>REDDIT</h2>
+            <div>
+                <h2>REDDIT</h2>
+                <h3>{this.props.resolves.term}</h3>
+            </div>
         )
     }
 }

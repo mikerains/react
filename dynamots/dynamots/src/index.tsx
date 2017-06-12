@@ -4,14 +4,15 @@
 
 import * as React from 'react';
 import * as ReactDOM from "react-dom";
-import { UIRouter, UIView, pushStateLocationPlugin, hashLocationPlugin, UIRouterReact, servicesPlugin, UISref, UISrefActive} from 'ui-router-react';
+import { UIRouter, UIView, pushStateLocationPlugin, hashLocationPlugin, UIRouterReact, servicesPlugin, UISref, UISrefActive } from 'ui-router-react';
 import { IStateRoute } from './interfaces/interfaces';
 import { Routes } from './routes'
 
 const router = new UIRouterReact();
 
-//router.plugin(pushStateLocationPlugin);
-router.plugin(hashLocationPlugin);
+//https://github.com/ui-router/react/blob/master/docs/API.md
+router.plugin(pushStateLocationPlugin);
+//router.plugin(hashLocationPlugin);
 router.plugin(servicesPlugin);
 
 const mainroute: IStateRoute = {
@@ -29,7 +30,7 @@ router.start();
 
 const repeaterTemplate = (route: any, index: number) => {
 
-    let term = route.resovles;
+    let term = route.resolves;
     var params = { term: term };
     return (<UISrefActive class="active" key={index}>
         <UISref to={route.name} params={params}>
@@ -45,6 +46,7 @@ router.stateService.go('/');
 
 const init = () => {
     let divId = "root";
+
     ReactDOM.render(
         <div>
             <UIRouter router={router}>
@@ -52,10 +54,46 @@ const init = () => {
                     <div className="app-header-nav">
                         <div className="container-app portalapp">
                             <ul className="nav nav-tabs">
-                            {Routes.map((route:any, index:number) =>
+                                <li role="presentation" >
+                                    <UISrefActive class="active">
+                                        <UISref to="config">
+                                            <a href="javascript.void(0);">
+                                                <span className="code-span">Config</span>
+                                            </a>
+                                        </UISref>
+                                    </UISrefActive>
+                                </li>
+                                <li role="presentation" key="project1" >
+                                    <UISrefActive class="active" key="1">
+                                        <UISref to="config.term" params={{ term: 'Project1' }}>
+                                            <a href="javascript.void(0);">
+                                                <span className="code-span">Config:Project1</span>
+                                            </a>
+                                        </UISref>
+                                    </UISrefActive>
+                                </li>
+                                <li role="presentation" >
+                                    <UISrefActive class="active">
+                                        <UISref to="redit">
+                                            <a href="javascript.void(0);">
+                                                <span className="code-span">Reddit</span>
+                                            </a>
+                                        </UISref>
+                                    </UISrefActive>
+                                </li>
+                                <li role="presentation">
+                                    <UISrefActive class="active">
+                                        <UISref to="reddit.term" params={{ term: 'spock' }}>
+                                            <a href="javascript.void(0);">
+                                                <span className="code-span">Reddit:spock</span>
+                                            </a>
+                                        </UISref>
+                                    </UISrefActive>
+                                </li>
+                                {/*{Routes.map((route:any, index:number) =>
                                 repeaterTemplate(route, index)
-                            )}
-                                </ul>
+                            )}*/}
+                            </ul>
                         </div>
                     </div>
                     <UIView />
