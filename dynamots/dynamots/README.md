@@ -2,7 +2,13 @@
 npm run build
 npm start
 
+## UI-Router
 https://github.com/ui-router/react/blob/master/docs/API.md
+
+https://github.com/ui-router/react/blob/master/docs/API.md#uirouterreact
+
+
+## Client Side Routing
 
 There are two ways to handle Client Side Routing
 1. using pushStateLocationPlugin: use npm run start, which uses node server.js (see: https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#serving-apps-with-client-side-routing), which configures the serve to route all requests to Index.html, so that bookmarked links like http://localhost:5000/config works, but notice "index.html" is not in the URL, it would not be possible to serve up 2 SPA's from one site this way.
