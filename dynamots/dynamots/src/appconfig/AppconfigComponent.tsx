@@ -23,7 +23,7 @@ export class Appconfig extends React.Component<any, any> {
     render() {
         let term = null;
         if (this.props.resolves && this.props.resolves.term) {
-            term = this.props.resolves.term["project1"];
+            term = this.props.resolves.term["Project1"];
         }
         return (
             <div>
@@ -31,7 +31,7 @@ export class Appconfig extends React.Component<any, any> {
                 <div>
                 Term(1):
                 {
-                <h3>{this.props.resolves.term["Project1"]}</h3>
+                <h3>{term}</h3>
                 }
                 </div>
                 <div>

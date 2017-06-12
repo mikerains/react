@@ -1,6 +1,8 @@
 ﻿import { IStateRoute } from '../interfaces/interfaces';
 import  * as Promise  from 'promise';
+
 import { Reddit } from './RedditComponent';
+import { RedditChild } from './RedditChildComponent';
 
 const MainPage: IStateRoute = {
     name: 'reddit',
@@ -10,8 +12,8 @@ const MainPage: IStateRoute = {
 
 const RedditPage: IStateRoute = {
     name: 'reddit.term',
-    url: '/reddit/:term',
-    component: {},
+    url: '/:term',
+    component: RedditChild,
     resolve: [{
         token: 'term',
         deps: ['$transition$'],

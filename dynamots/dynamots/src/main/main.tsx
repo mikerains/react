@@ -48,7 +48,7 @@ export class Main extends React.Component<any, any> {
                     <div className="app-header-nav">
                         <div className="container-app portalapp">
                             <ul className="nav nav-tabs">
-                                <li role="presentation" >
+                                <li>
                                     <UISrefActive class="active">
                                         <UISref to="config">
                                             <a href="javascript.void(0);">
@@ -57,7 +57,7 @@ export class Main extends React.Component<any, any> {
                                         </UISref>
                                     </UISrefActive>
                                 </li>
-                                <li role="presentation" key="project1" >
+                                <li >
                                     <UISrefActive class="active" key="1">
                                         <UISref to="config.term" params={{ term: 'Project1' }}>
                                             <a href="javascript.void(0);">
@@ -66,16 +66,16 @@ export class Main extends React.Component<any, any> {
                                         </UISref>
                                     </UISrefActive>
                                 </li>
-                                <li role="presentation" >
+                                <li >
                                     <UISrefActive class="active">
-                                        <UISref to="redit">
+                                        <UISref to="reddit">
                                             <a href="javascript.void(0);">
                                                 <span className="code-span">Reddit</span>
                                             </a>
                                         </UISref>
                                     </UISrefActive>
                                 </li>
-                                <li role="presentation">
+                                <li>
                                     <UISrefActive class="active">
                                         <UISref to="reddit.term" params={{ term: 'spock' }}>
                                             <a href="javascript.void(0);">

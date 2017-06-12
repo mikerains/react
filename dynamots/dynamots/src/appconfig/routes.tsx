@@ -10,7 +10,7 @@ const MainPage: IStateRoute = {
 
 const SearchPage: IStateRoute = {
     name: 'config.term',
-    url: '/config/:term',
+    url: '/:term',
     component: {},
     resolve: [{
         token: 'term',
