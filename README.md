@@ -5,7 +5,7 @@ react sample projects
 0. Understand Ui-Router's ViewConfigFactory.  See the sample app https://github.com/ui-router/react/blob/master/src/core.ts
 1. UI-Router in Dynamots on 2 pages: Reddit and Appconfig
 2. Offline State (create-react-app)
-3. Preserve state between sessions (using redux - see SHoudl I Use Redux link below)
+3. Preserve state between sessions (using redux - see Should I Use Redux link below)
 4. Lazyloading - from ui-router https://ui-router.github.io/react/docs/latest/interfaces/react.reactstatedeclaration.html#lazyload
 5. Doing it all with Create-React_app, see https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#making-a-progressive-web-app
 
