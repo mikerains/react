@@ -8,6 +8,7 @@ react sample projects
 3. Preserve state between sessions (using redux - see Should I Use Redux link below)
 4. Lazyloading - from ui-router https://ui-router.github.io/react/docs/latest/interfaces/react.reactstatedeclaration.html#lazyload
 5. Doing it all with Create-React_app, see https://github.com/facebookincubator/create-react-app/blob/master/packages/react-scripts/template/README.md#making-a-progressive-web-app
+6. Creating a Mobile Icon App (create-react-app feature)
 
 
 # Currently I am implementing
