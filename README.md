@@ -58,7 +58,7 @@ npm install --save @types/webpack-env
 
 npm install --save @types/react-hot-loader
 
-Note: npm install --save @types/node export modeule: NodeModule whichi does not include 'hot' function that is included in @types/webpack-dev.
+Note: npm install --save @types/node export module: NodeModule which does not include 'hot' function that is included in @types/webpack-dev.  So don't install @types/nodes.  But this may be a problem if trying to refer to process-env.
 * See https://stackoverflow.com/questions/40568176/webpack-typescript-module-hot-does-not-exist
 * See https://github.com/vitaliy-bobrov/angular-hot-loader/issues/5
 * See https://github.com/glenjamin/webpack-hot-middleware/issues/89
