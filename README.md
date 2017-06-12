@@ -73,7 +73,8 @@ https://webpack.js.org/concepts/hot-module-replacement/
 
 
 # Redux
-* Shuld I use Redux?   https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367
+* http://redux.js.org/
+* Should I use Redux?   https://medium.com/@dan_abramov/you-might-not-need-redux-be46360cf367
 
 # NPM
 
